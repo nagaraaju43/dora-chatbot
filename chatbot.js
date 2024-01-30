@@ -5,11 +5,11 @@ const chatbotToggler = document.querySelector(".chatbot-toggler");
 const chatbotCloseBtn = document.querySelector(".close-btn");
 
 let userMessage;
-const API_KEY = "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";
+const API_KEY = "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";
 const inputInitHeight =  chatInput.scrollHeight;
 
 const createChatLi = (message, className) => {
-    const chatLi = document.createElement("li");
+    const chatLi = do3cument.createElement("li");
     chatLi.classList.add("chat" , className);
     let chatContent = className === "outgoing" ? `<p></p>`: `<span class="material-symbols-outlined">bot</span><p></p>`;
     chatLi.innerHTML = chatContent;
